@@ -9,6 +9,7 @@
             margin: 0;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
@@ -22,8 +23,6 @@
             100% { background-position: 100% 50%; }
         }
 
-        
-
         h1 {
             margin: 0;
             font-size: 120px;
@@ -33,27 +32,34 @@
             color: #ffffff;
             text-shadow: 0 0 20px #00000080, 0 0 40px #ff00ff;
         }
-        p {
-            margin: 0;
-            font-size: 20px;
-        }
+
         button {
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: white;
+            margin-top: 30px;
+            padding: 14px 28px;
+            background: #ffffff;
             color: #333;
             border: none;
             border-radius: 12px;
-            font-size: 18px;
+            font-size: 20px;
             cursor: pointer;
-            transition: 0.2s;
+            transition: 0.25s;
         }
+
         button:hover {
             transform: scale(1.1);
+            background: #ffbb00;
+            color: #000;
         }
     </style>
 </head>
 <body>
+
     <h1 class="main">WHAT UP, BIATCH ?</h1>
+
+    <button onclick="window.open('https://youtu.be/24v3C37JLwA?si=RCGn035544DkriNN', '_blank')">
+        Wanna hear a secret?
+    </button>
+
 </body>
 </html>
+
